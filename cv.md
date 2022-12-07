@@ -17,3 +17,15 @@ Full immersion in the essence of the problems
 Diligence
 Team playing
 Keep learning…
+
+Code Examples
+
+function multiply(a, b){
+  a * b
+}
+
+Education
+
+MOSCOW AUTOMOBILE AND ROAD CONSTRUCTION
+STATE TECHNICAL UNIVERSITY
+(MADI)
