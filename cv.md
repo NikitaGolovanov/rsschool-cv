@@ -29,3 +29,9 @@ Education
 MOSCOW AUTOMOBILE AND ROAD CONSTRUCTION
 STATE TECHNICAL UNIVERSITY
 (MADI)
+
+
+Languages
+
+Russian - native speaker.
+English - Intermediate
