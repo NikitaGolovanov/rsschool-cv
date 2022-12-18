@@ -1,29 +1,26 @@
 Nikita Golovanov
 
-My Contact Info:
+CONTACTS
+Pushkino, Moscow Region
+Email: nikita.golovanov.rabota@gmail.com
+Github: NikitaGolovanov
+Discord: NikiTka#1339
 
-Phone:+7 999 983 06 14
-E-mail: nikita.golovanov.rabota@gmail.com
-GitHub: NikitaGolovanov
-
-About Me
-
+SUMMARY
 I am 23 years old. My goal is to gain knowledge in the field of front-end development.
 
-My strengths:
-
-Quick learner
-Full immersion in the essence of the problems
-Diligence
-Team playing
-Keep learning…
+SKILLS
+I'm new to programming, I haven't had any projects yet, but everything is ahead
 
 Code Examples
 
-function multiply(a, b){
-  a * b
-}
+function factorial(n) {
+  function bmi(weight, height) {
 
+    const bmi = weight/(height*height);
+    
+    return bmi <= 18.5 ? 'Underweight': bmi <= 25 ? 'Normal': bmi <= 30 ? 'Overweight': 'Obese';
+  };
 Education
 
 MOSCOW AUTOMOBILE AND ROAD CONSTRUCTION
@@ -33,5 +30,4 @@ STATE TECHNICAL UNIVERSITY
 
 Languages
 
-Russian - native speaker.
 English - Intermediate
