@@ -1,37 +1,104 @@
-Nikita Golovanov
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>cv</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/Logo.ico">
+  <link rel="stylesheet" href="./style.css">  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container header-container">
+      <nav class="nav">
+        <ul class="nav-list">          
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>          
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container main-container">
+      <section class="section section-profile" id="profile">
+        <img src="assets/fzWKiXrpwRI.jpg" alt="avatar" class="section-profile-logo">
+        <div class="section-profile-title">
+          <h1 class="section-title main-title">Nikita Golovanov</h1>    
+        </div>        
+      </section>
+    </section>
+    <section class="section" id="contacts">
+      <h2 class="section-title">Contacts</h2>
+      <ul class="section-list">
+        <li class="section-item contacts-item">
+          Pushkino, Moscow Region
+        </li>
+        <li class="section-item contacts-item">
+          Email: <a href="nikita.golovanov.rabota@gmail.com" title="email">nikita.golovanov.rabota@gmail.com</a>
+        </li>
+        <li class="section-item contacts-item">
+          Github: <a href="github.com/NikitaGolovanov" title="github">NikitaGolovanov</a>
+        </li>
+        <li class="section-item contacts-item">
+          Discord: <a title="github">NikiTka#1339</a>
+        </li>
+      </ul>
+    </section>
+      
+      <section class="section" id="summary">
+        <h2 class="section-title">Summary</h2>
+        <p>
+          I am 23 years old. My goal is to gain knowledge in the field of front-end development.
+        </p>
+      </section>
+      <section class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <p>I'm new to programming, I haven't had any projects yet, but everything is ahead</p>
+      </section>
+      <section class="section" id="code">
+        <h2 class="section-title">Code</h2>
+<pre class="pre"><code>function factorial(n) {
+  function bmi(weight, height) {
 
-My Contact Info:
-
-Phone:+7 999 983 06 14
-E-mail: nikita.golovanov.rabota@gmail.com
-GitHub: NikitaGolovanov
-
-About Me
-
-I am 23 years old. My goal is to gain knowledge in the field of front-end development.
-
-My strengths:
-
-Quick learner
-Full immersion in the essence of the problems
-Diligence
-Team playing
-Keep learning…
-
-Code Examples
-
-function multiply(a, b){
-  a * b
-}
-
-Education
-
-MOSCOW AUTOMOBILE AND ROAD CONSTRUCTION
-STATE TECHNICAL UNIVERSITY
-(MADI)
-
-
-Languages
-
-Russian - native speaker.
-English - Intermediate
+    const bmi = weight/(height*height);
+    
+    return bmi <= 18.5 ? 'Underweight': bmi <= 25 ? 'Normal': bmi <= 30 ? 'Overweight': 'Obese';
+  };
+}</code></pre>
+      </section>
+      <section class="section" id="courses">
+        <h2 class="section-title">Courses</h2>
+       <p>I repeat that I am quite a beginner, and this is my first course in programming</p>
+      </section>
+      <section class="section" id="projects">
+        <h2 class="section-title">Projects</h2>
+       <p>Accordingly, from the above, I have no projects</p>
+      </section>
+      <section class="section section-education" id="education">
+        <h2 class="section-title">Education</h2>
+        <p>
+          MOSCOW AUTOMOBILE AND ROAD CONSTRUCTION
+          STATE TECHNICAL UNIVERSITY
+          (MADI)</p>
+      </section>
+      <section class="section section-english" id="english">
+        <h2 class="section-title">English</h2>
+ <p>English - Intermediate</p>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container footer-container">
+      <div>© 2022 <a href="https://github.com/NikitaGolovanov" class="github nav-link">NikitaGolovanov</a></div>
+      <a href="https://rs.school/js-stage0/" class="rss"></a>
+    </div>
+  </footer>
+</body>
+</html>
